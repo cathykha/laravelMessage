@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+@include('includes.head')
+
+<body>
+<div class="container">
+    <header>
+        @include('includes.mainNav')
+    </header>
+
+
+    <main class="jumbotron">
+        @yield('content')
+    </main>
+
+    @include('includes.jsfooter')
+
+    <footer>
+        @include('includes.footer')
+    </footer>
+</div>
+</body>
+</html>
